@@ -30,6 +30,7 @@ body{
 a{
   text-decoration: none;
   color: inherit;
+  transition: color 0.3s ease;
 }
 
 a:hover{
@@ -37,4 +38,19 @@ a:hover{
 }
 h1, h2, h3{
   font: inherit;
+}
+
+.container{
+  max-width: 1280px;
+  padding-inline: 32px;
+  margin-inline: auto;
+}
+
+/* utility-first quando uma classe vai fazer apenas uma coisa */
+.grid{
+  display: grid;
+}
+
+.grid-flow-column{
+  grid-auto-flow: column;
 }
