@@ -4,7 +4,6 @@
 
 ---
 
-## 📸 Mockup do Projeto
 
 <p align="center">
   <img src="./assets/readme.png" alt="Layout do Projeto Tech News" width="100%">
